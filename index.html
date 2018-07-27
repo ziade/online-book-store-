@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Rakabooks</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script type="text/javascript" src="js/aja.js"></script>
+</head>
+<body>
+ <div class="container">
+
+ 
+      <div class="jumbotron "> 
+        <div class="row">
+        <div class="col-lg-5"> <h1>Rakabooks</h1></div>
+  	  
+
+       <div class="col-lg-7">
+        <select class="select" >
+            <option value="Fiction">Fiction</option>
+            <option value="Fiction">Scienctific</option>
+            <option value="Fiction">Acdamic</option>
+            <option value="Fiction">Religious</option>
+            <option value="Fiction">poltical</option>
+            <option value="Fiction">History</option>
+            <option value="Fiction">Technology</option>
+        </select>
+        <input type="search" id ="search" placeholder="search book " >
+          <button type="button" class="btn btn-info s_btn">
+              <span class="glyphicon glyphicon-search  "></span> Search
+                 </button>
+             </div>
+            </div>
+       
+       <div class="menu">
+            <ul class="nav nav-bar ">
+                <li><a href="#">Home</a></li>
+                <li><a href="catalog.html">catalog</a></li>
+                <li><a href="catalog.html/#best">Best selling</a></li>
+                <li><a href="#">Trends</a></li>
+                <li><a href="#">How it works</a></li>
+                <li><a href="#">sign up</a></li>
+                <li><a href="#">Log in</a></li>
+                <li><a href="#" >Cart(0)</a></li>
+
+
+            </ul>
+          
+       </div>
+  </div>
+     <div class="slid">
+        <img src="images/b4.jpg"  alt="image" id="im">
+      <script>
+    var image=document.getElementById("im");
+    var data=["images/b1.jpg","images/b2.jpg","images/b3.jpg","images/b4.jpg"];
+    var index=0;
+    function changer(){
+      image.setAttribute("src",data[index]);
+      index++;
+      if(index >=data.length){
+       index=0;}};
+    setInterval(changer,5000); 
+    </script>
+         
+     </div>
+     <div class="row"> 
+     
+     <div class="new col-lg-8">
+     	 <h3>sign up</h3>
+     	<form rol="form" class="form-horizontal" name="regs">
+     		<label><input type="text"  name ="fname" class="form" placeholder="your name" required>
+             <p id="name_err"></p></label></br>
+     		<label><input type="email" name="email" placeholder="email" required >
+               <p id="email_err"></p>
+            </label></br>
+     		<label><input type="text" name="phone" placeholder="enter phone number" required>
+                  <p id="phone_err"></p>
+            </label></br>
+     		<label><input type="text" name="city" placeholder="city" >
+                    <p id="city_err"></p>
+             </label></br>
+     		<label><input type="password" name="pass" placeholder="choose password" required>
+            
+            </label></br>
+     		<label><input type="password" name="c_pass" placeholder="confirm password" required>
+             <p id="password_err"></p></label></br>
+     		<label><input type="submit" name="" value="sign up" class="btn btn-success" onclick="vlidate()"></label>
+            
+     	</form></div>
+         <div class="Login col-lg-4">
+            <h3>Log in</h3>
+         <form>
+         <label><input type="email" name="email" placeholder="enter your email" required></label></br>
+         <label><input type="password" name="pass" placeholder="enter your password" required></label></br>
+         <label><input type="submit" name="" value="Log in" class="btn btn-success"></label>
+         </form>
+         
+     </div>
+
+     </div>
+         
+     <div class="fotter row"> 
+        <div class="f_menu col-lg-4">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="catalog.html">catagories</a></li>
+                <li><a href="#">order book</a></li>
+                <li><a href="#">sign up</a></li>
+                <li><a href="#">Log in</a></li>
+   
+
+            </ul>
+            
+        </div>
+         <div class="how_it_works col-lg-4">
+             <p><i><u>how it works </u></i></br>
+              Here in RakaBooks you can search
+              best selling books or order newly comming books 
+              by creating account </p>
+         </div>  
+
+         <div class="contact_us col-lg-4">
+              <p>
+                 <u><i>contact us</i></u><br>
+                 <form>
+                     <label><input type="email" name="" placeholder="enter your email" required=""></label></br>
+                     <label><textarea cols="30" rows="4" placeholder="write your  message" required=""></textarea></label><br>
+                     <label><input type="submit" name="" value="Send" class="btn btn-info"></label>
+                 </form>
+              </p>
+
+         </div>
+
+        </div>
+           &copy Rakabooks.com 2010
+     </div>
+   
+</body>
+</html>

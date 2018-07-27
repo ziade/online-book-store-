@@ -1,0 +1,179 @@
+.fotter{
+	background: #669999;
+	color: white;
+
+	border-radius: 10px;
+}
+.jumbotron {
+
+	
+	text-align: center;
+	padding: 5px;
+	background: #ccddff;
+}
+
+.slid{
+	border-radius: 12px;
+	width: 100%;
+	height: 300px;
+}
+.slid img{
+	width: 100%;
+	height: 300px;
+
+}
+textarea{
+	border-radius: 12px;
+}
+
+
+h1{
+	font-family: Comic Sans MS;
+	font-style: italic;
+	color: #3399FF;
+	margin-left: -5%;
+}
+h3{
+	font-family: sans-serif;
+	font-style: italic;
+	color: blue;
+	text-decoration: underline;
+
+}
+
+h4{
+	font-family: sans-serif;
+	font-style: italic;
+	color: blue;
+	text-decoration: underline;
+	text-align: center;
+
+}
+
+.img {
+	float: left;
+	padding: 5px;
+	
+
+}
+.img img {
+	float: center;
+	width: 200px;
+	height: 100px;
+	margin: 2px;
+
+}
+.img img:hover{
+	opacity: 0.7;
+
+}
+.desc{
+	text-align: center;
+}
+
+#search{
+	width: 60%;
+	height: 40px;
+	box-sizing: border-box;
+	border: none;
+	border-radius: 10px;
+}
+
+.select{
+	width: 110px;
+	height: 40px;
+	border-radius: 10px;
+}
+.s_btn{
+	height: 40px;
+	border-radius: 12px;
+}
+
+.menu ul li {
+	padding: 5px;
+	text-decoration: none;
+	text-align: center;
+	margin: 5px;
+}
+.menu ul {
+	text-align: center;
+	margin-left: 25%;
+
+  } 
+ .new{
+ 	margin-top: 2%;
+ }
+
+ input[type=text]{
+ 	width: 130%;
+ 	height: 40px;
+ 	border-radius: 5px;
+
+ }
+input[type=password]{
+	width: 130%;
+ 	height: 40px;
+ 	border-radius: 5px;
+}
+
+input[type=email]{
+	width: 130%;
+ 	height: 40px;
+ 	border-radius: 5px;
+
+}
+
+
+
+
+.Login{
+	margin-top: 2%;
+}
+
+
+
+  .menu ul li {
+
+  }
+
+  .f_menu ul li{
+  	list-style: none;
+  	text-decoration: none;
+
+  }
+  .f_menu ul li a{
+  	color: white;
+  }
+
+.catagory ul li {
+	list-style: none;
+
+}
+.catagory ul li a:hover{
+	background: #f2f2f2;
+
+
+}
+.Trending{
+	
+
+}
+
+.img_T {
+	text-align: center;
+	padding: 2px;
+
+}
+.img_T:hover{
+	opacity: 0.7;
+}
+.img_T p{
+	font-size: 12px;
+
+}
+
+#name_err, #email_err , #password_err , #phone_err,#city_err{
+	color: red;
+	font-size: 12px;
+	font-family: sans-serif;
+}
